@@ -1,7 +1,5 @@
 title: The Wonderful Wizard of Oz
-author: Lyman Frank Baum
-date: 1900/05/17
+date: 17/05/1900
 
-Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, 
-who was a farmer, and Aunt Em, who was the farmer's wife.
+_Once upon a time_...
 
