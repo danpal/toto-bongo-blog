@@ -1,5 +1,5 @@
 # This file is used by Rack-based servers to start the application.
-require 'toto-bongo'
+require 'toto'
 require ::File.expand_path('../config/environment',  __FILE__)
 
 #point to your rails apps /public directory
@@ -38,14 +38,14 @@ app = Rack::Builder.new do
 
   #map requests to /blog to toto
   map '/blog' do
-    run toto-bongo
+    run toto
   end
   
   #map all the other requests to rails
   map '/' do
     if Rails.version.to_f >= 3.0
       ActionDispatch::Static
-      run Getautodeal::Application
+      run [AppName]::Application  #Map your application
     else # Rails 2
       use Rails::Rack::Static
       run ActionController::Dispatcher.new
