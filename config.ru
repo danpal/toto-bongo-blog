@@ -26,7 +26,7 @@ toto = Toto::Server.new do
   set :prefix, 'blog'
 
   if RAILS_ENV != 'production'
-    set :url, "http://localhost:3000/blog/"
+    set :url, "http://localhost:9292/blog/"
   else
     set :url, "http://toto-bongo.heroku.com/blog/" #EDIT THIS TO ADD YOUR OWN URL
   end
@@ -45,7 +45,7 @@ app = Rack::Builder.new do
   map '/' do
     if Rails.version.to_f >= 3.0
       ActionDispatch::Static
-      run [AppName]::Application  #Map your application
+      run TotoBongo::Application  #Map your application
     else # Rails 2
       use Rails::Rack::Static
       run ActionController::Dispatcher.new
@@ -54,5 +54,6 @@ app = Rack::Builder.new do
 end.to_app
 
 run app
+
 
 

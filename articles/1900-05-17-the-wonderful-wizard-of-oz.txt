@@ -1,6 +1,0 @@
-title: Everything is working correctly
-author: Daniel Palacio
-date: 2011/04/22
-
-If you can see this then everything is working correctly
-
