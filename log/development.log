@@ -94,3 +94,4 @@ DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called fr
 DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from != at /users/dani/Development/rails_project/toto-bongo-blog/config.ru:28)
 DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from != at /users/dani/Development/rails_project/toto-bongo-blog/config.ru:28)
 DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from != at /users/dani/Development/rails_project/toto-bongo-blog/config.ru:28)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from != at /users/dani/Development/rails_project/toto-bongo-blog/config.ru:28)
