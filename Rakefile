@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-TotoBongo::Application.load_tasks
+TotoBongoBlog::Application.load_tasks
