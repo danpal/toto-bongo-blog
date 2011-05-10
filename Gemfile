@@ -2,7 +2,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-gem 'toto-bongo'
+gem 'toto'
 gem 'builder'
 gem 'RedCloth'
 gem 'haml'
