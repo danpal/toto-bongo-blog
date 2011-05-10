@@ -1,21 +1,25 @@
 title: Textile toto bongo
 author: Daniel Palacio
 description: textile toto bongo
-date: 2011/05/29
+date: 2050/05/20
+
 
 h1. This is an h1
 
+This is a link "Textile Reference":http://redcloth.org/hobix.com/textile/
+
 h2. This is an h2
 
-h3. This is an h3
+<br/>
 
-h4. Here is what you have todo:
+h3. This is an h4
 
-This is a link "Textile Reference":http://redcloth.org/hobix.com/textile/
-I am <b>very</b> serious.
-1. The filename should match the date and the title and should end in .txt
-or whatever :ext you configured it to, default is .txt
+<br/>
 
-2. The first 3 lines is a YML format same as this artile
+h4. This is an h3
 
-3. Write in textile format and you are done
+h4. This is an h4
+
+Bolding <b>very</b> 
+
+
