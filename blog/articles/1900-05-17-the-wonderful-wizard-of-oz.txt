@@ -1,11 +1,7 @@
 title: The Wonderful Wizard of Oz
 date: 17/05/1900
 
-<<<<<<< HEAD:blog/articles/1900-05-17-the-wonderful-wizard-of-oz.txt
-_Once upon a time_...
-=======
 Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry,
 who was a farmer, and Aunt Em, who was the farmer's wife.
->>>>>>> toto-bongo:blog/articles/1900-05-17-the-wonderful-wizard-of-oz.txt
 
 
