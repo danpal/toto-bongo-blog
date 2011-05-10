@@ -76,7 +76,6 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
-  builder
   haml
   rails (= 3.0.3)
   toto
