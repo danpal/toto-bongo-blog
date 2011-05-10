@@ -61,12 +61,11 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
-    rdiscount (1.6.8)
     thor (0.14.6)
-    toto (0.4.9)
+    toto-bongo (1.0.1)
+      RedCloth
       builder
       rack
-      rdiscount
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
@@ -78,4 +77,4 @@ DEPENDENCIES
   RedCloth
   haml
   rails (= 3.0.3)
-  toto
+  toto-bongo
