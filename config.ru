@@ -9,7 +9,7 @@ use Rack::ShowExceptions
 use Rack::CommonLogger
 
 #run the toto application
-toto_bongo = TotoBongo::Server.new do
+toto-bongo = TotoBongo::Server.new do
 
   #override the default location for the toto directories
   TotoBongo::Paths = {
