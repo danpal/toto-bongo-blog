@@ -1,3 +1,4 @@
+-#This lists all articles in the blog
 %section#articles
   - for article in articles[0...3]
     %article.post
@@ -10,14 +11,4 @@
       .more
         %a{:href => article.path} read on »
 %section#archives
-  %h3 Older Posts
-  %ul
-    -for entry in archives[3..6]
-      %li
-        %a{:href => entry.path}= entry.title
-    %li
-      %a{:href => "/blog/archives" } See all older posts »
-
-
-
-
+  = archives[3..-1]

@@ -20,6 +20,8 @@ toto_bongo = TotoBongo::Server.new do
 
   # set your config variables here
   set :title, 'toto-bongo blog'
+  set :desciption, 'A minimal blog for your existing rails application'
+  set :keywords, 'Blog Rails Heroku'
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :summary,   :max => 500
   set :root, 'index'

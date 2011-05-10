@@ -1,8 +1,10 @@
 title: Toto Bongo Articles How To
 author: Daniel Palacio
+description: How to write blogs with toto bongo
 date: 2011/05/28
 
-Here is what you have todo:
+h3. Here is what you have todo:
+
 1. The filename should match the date and the title and should end in .txt
 or whatever :ext you configured it to, default is .txt
 

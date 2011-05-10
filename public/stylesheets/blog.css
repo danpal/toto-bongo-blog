@@ -28,7 +28,7 @@ header, footer, section, article {
 .date {
   font-style: italic;
   float: right;
-  line-height: 43px;
+  line-height: 30px;
   margin-right: 30px; }
 
 a {
