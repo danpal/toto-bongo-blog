@@ -61,7 +61,6 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
-    sass (3.1.1)
     thor (0.14.6)
     toto-bongo (1.0.1)
       RedCloth
@@ -79,5 +78,4 @@ DEPENDENCIES
   builder
   haml
   rails (= 3.0.3)
-  sass
   toto-bongo
