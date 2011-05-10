@@ -9,7 +9,7 @@ use Rack::ShowExceptions
 use Rack::CommonLogger
 
 #run the toto application
-toto-bongo = TotoBongo::Server.new do
+toto_bongo = TotoBongo::Server.new do
 
   #override the default location for the toto directories
   TotoBongo::Paths = {
@@ -40,7 +40,7 @@ app = Rack::Builder.new do
 
   #map requests to /blog to toto
   map '/blog' do
-    run toto-bongo
+    run toto_bongo
   end
 
   #map all the other requests to rails
