@@ -30,7 +30,7 @@ toto_bongo = TotoBongo::Server.new do
   if RAILS_ENV != 'production'
     set :url, "http://localhost:3000/blog/"
   else
-    set :url, "http://toto-bongo.heroku.com/blog/" #EDIT THIS TO ADD YOUR OWN URL
+    set :url, "http://totobongo.heroku.com/blog/" #EDIT THIS TO ADD YOUR OWN URL
   end
 end 
 

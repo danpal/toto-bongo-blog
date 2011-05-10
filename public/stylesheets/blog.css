@@ -1,5 +1,5 @@
 html {
-  margin: 20px; }
+  margin: 10px; }
 
 body {
   margin: 0 auto;
@@ -11,6 +11,12 @@ body {
 
 header, footer, section, article {
   display: block; }
+
+.blog_name {
+  font-size: 59px;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: normal; }
 
 #by {
   font-style: italic;
@@ -29,7 +35,14 @@ header, footer, section, article {
   font-style: italic;
   float: right;
   line-height: 30px;
-  margin-right: 30px; }
+  margin-right: 30px;
+  font-weight: normal; }
+
+p.author {
+  font-style: italic;
+  margin-top: -9px !important;
+  font-size: 16px;
+  color: #434343; }
 
 a {
   color: #b83000; }
@@ -49,7 +62,7 @@ body > header > h1 {
   font-weight: normal; }
 
 .post {
-  margin-bottom: 30px; }
+  margin-bottom: 65px; }
   .post header {
     margin-bottom: 10px; }
   .post .body p:first-child {
@@ -78,7 +91,6 @@ body > header {
   margin-bottom: 20px; }
 
 h1, h2, h3, h4 {
-  display: inline;
   margin: 0;
   font-weight: 600; }
 
@@ -96,7 +108,8 @@ blockquote {
 
 body > footer {
   text-align: left;
-  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
   font-style: italic;
   font-size: 18px;
   color: #888888; }

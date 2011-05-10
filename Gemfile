@@ -4,3 +4,6 @@ gem 'rails', '3.0.3'
 gem 'toto-bongo'
 gem 'RedCloth'
 gem 'haml'
+gem 'sass'
+
+gem 'sqlite3-ruby', :require => 'sqlite3'
