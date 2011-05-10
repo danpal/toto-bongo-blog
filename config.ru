@@ -1,5 +1,5 @@
 # This file is used by Rack-based servers to start the application.
-require 'toto'
+require 'toto-bongo'
 require ::File.expand_path('../config/environment',  __FILE__)
 
 #point to your rails apps /public directory
@@ -9,17 +9,17 @@ use Rack::ShowExceptions
 use Rack::CommonLogger
 
 #run the toto application
-toto = Toto::Server.new do
+toto_bongo = TotoBongo::Server.new do
 
   #override the default location for the toto directories
-  Toto::Paths = {
+  TotoBongo::Paths = {
     :templates => "blog/templates",
     :pages => "blog/templates/pages",
     :articles => "blog/articles"
   }
 
   # set your config variables here
-  set :title, 'Localcar.co blog'
+  set :title, 'toto-bongo blog'
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :summary,   :max => 500
   set :root, 'index'
@@ -38,14 +38,15 @@ app = Rack::Builder.new do
 
   #map requests to /blog to toto
   map '/blog' do
-    run toto
+    run toto_bongo
   end
-  
+
   #map all the other requests to rails
   map '/' do
     if Rails.version.to_f >= 3.0
       ActionDispatch::Static
-      run TotoBongoBlog::Application  #Map your application
+      #run [ApplicationName]::Application
+      run TotoBongoBlog::Application  #change for your application name
     else # Rails 2
       use Rails::Rack::Static
       run ActionController::Dispatcher.new

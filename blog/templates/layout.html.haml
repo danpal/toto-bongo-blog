@@ -1,0 +1,14 @@
+<!doctype html>
+%html
+  %head
+    %link{:href => "/stylesheets/blog.css", :rel => "stylesheet", :type => "text/css"}
+      %link{:href => "/index.xml", :rel => "alternate", :title => "#{title} - feed", :type => "application/atom+xml"}/
+      %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+      %title= title
+  %body
+    %section
+      = yield
+    %footer
+      powered by
+      %a{:href => "http://github.com/danpal/toto-bongo"} toto
+

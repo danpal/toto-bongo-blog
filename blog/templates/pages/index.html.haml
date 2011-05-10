@@ -1,0 +1,14 @@
+%section#articles
+  - for article in articles[0...3]
+    %article.post
+      %header
+        %h1
+          %a{:href => article.path}= article.title
+        %span.date= article.date
+      %section.content
+        = article.summary
+      .more
+        %a{:href => article.path} read on »
+%section#archives
+  = archives[3..-1]
+

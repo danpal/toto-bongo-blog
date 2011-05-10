@@ -1,4 +1,7 @@
 db/*.sqlite3
 log/*.log
 tmp/**/*
+<<<<<<< HEAD:.gitignore
 
+=======
+>>>>>>> toto-bongo:.gitignore
