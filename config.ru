@@ -1,5 +1,5 @@
 # This file is used by Rack-based servers to start the application.
-require 'toto'
+require 'toto-bongo'
 require ::File.expand_path('../config/environment',  __FILE__)
 
 #point to your rails apps /public directory
@@ -12,7 +12,7 @@ use Rack::CommonLogger
 toto_bongo = TotoBongo::Server.new do
 
   #override the default location for the toto directories
-  Toto::Paths = {
+  TotoBongo::Paths = {
     :templates => "blog/templates",
     :pages => "blog/templates/pages",
     :articles => "blog/articles"
