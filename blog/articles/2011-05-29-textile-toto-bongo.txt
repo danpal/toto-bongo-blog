@@ -4,22 +4,15 @@ description: textile toto bongo
 date: 2011/05/29
 
 
-h1. This is an h1
+Toto bongo uses textile to create the blogs post here is what you should
+know
+
+h4. Read the textile reference
 
 This is a link "Textile Reference":http://redcloth.org/hobix.com/textile/
 
-h2. This is an h2
+h4. Dont use h1 or h2,
 
-<br/>
-
-h3. This is an h4
-
-<br/>
-
-h4. This is an h3
-
-h4. This is an h4
-
-Bolding <b>very</b> 
+h1 are use for titles, so you are better off starting with .h3
 
 

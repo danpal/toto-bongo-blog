@@ -1,14 +1,14 @@
 -#This lists all articles in the blog
-%section#articles
-  - for article in articles[0...3]
-    %article.post
+#articles
+  -for article in articles[0...3]
+    .post
       %header
         %h1
           %a{:href => article.path}= article.title
         %span.date= article.date
-      %section.content
+      .content
         = article.summary
       .more
         %a{:href => article.path} read on »
-%section#archives
+#archives
   = archives[3..-1]

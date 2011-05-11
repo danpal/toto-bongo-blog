@@ -1,17 +1,17 @@
-%article.post
+.post
   %header
-    %h2
+    %h1
       %span= title
       %span.date= date
     %p.author= "-By: #{author}"
-  %section.content
+  .content
     = body
-  %section.comments
-    - if @config[:disqus]
+  .comments
+    -if @config[:disqus]
       #disqus_thread
       %script{:src => "http://disqus.com/forums/#{@config[:disqus]}/embed.js", :type => "text/javascript"}       %noscript
       %a{:href => "http://#{@config[:disqus]}.disqus.com/?url=ref"} View the discussion thread.
       %a.dsq-brlink{:href => "http://disqus.com"}
-        blog comments powered by
-        %span.logo-disqus Disqus
+      blog comments powered by
+      %span.logo-disqus Disqus
 

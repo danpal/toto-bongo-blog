@@ -5,8 +5,7 @@ date: 2011/05/28
 
 h3. Here is what you have todo:
 
-1. The filename should match the date and the title and should end in .txt
-or whatever :ext you configured it to, default is .txt
+1. The filename should match the date and the title and should end in .txt or whatever :ext you configured it to, default is .txt
 
 2. The first 3 lines is a YML format same as this artile
 
